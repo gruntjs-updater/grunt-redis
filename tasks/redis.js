@@ -27,7 +27,7 @@ module.exports = function(grunt) {
         
         console.log(options);
 
-        var client = redis.createClient(options.port, options.host, options.options); //yes i know options.options isn't great
+        var client = redis.createClient(options.port, options.host, options.connectionOptions); 
         
         client.on("ready", function(){
             grunt.log.debug("Connected to redis");

@@ -27,7 +27,10 @@ grunt.initConfig({
   redis: {
     options: {
       fullPath: Boolean, 
-      prefix: String
+      prefix: String,
+      host: String,
+      port: Number,
+      connectionOptions: Object //as per https://github.com/mranney/node_redis#rediscreateclientport-host-options
     },
     your_target: {
       files: {
