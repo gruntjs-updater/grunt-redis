@@ -2,6 +2,11 @@
 
 > Redis file uploader
 
+## Introduction
+This package is inspired by [Luke Melia's](https://twitter.com/lukemelia) [slides about deploying javascript](https://speakerdeck.com/lukemelia/lightning-fast-deployment-of-your-rails-backed-javascript-app) mainly because there wasn't a way to upload a file using grunt. 
+
+This is a reasonably basic grunt plugin, with very little documentation but it works! PRs and Feature Requests welcome. 
+
 ## Getting Started
 This plugin requires Grunt `~0.4.4`
 
